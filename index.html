@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДКВС #03</title>
+    <link rel="icon" href="img/logo_site.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="img/logo.png" alt="ДКВС Логотип">
+                    <span class="logo-text">ДКВС м.Дніпро</span>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="#home" class="nav-link">Головна</a></li>
+                    <li><a href="#about" class="nav-link">Про нас</a></li>
+                    <li><a href="#statistics" class="nav-link">Статистика</a></li>
+                    <li><a href="#leadership" class="nav-link">Керівництво</a></li>
+                    <li><a href="#departments" class="nav-link">Відділи</a></li>
+                    <li><a href="#requirements" class="nav-link">Вимоги</a></li>
+                    <li><a href="#ranks" class="nav-link">Звання</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#schedule" class="nav-link">Графік роботи</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-on-scroll">Державна кримінально-<br>виконавча служба України</h1>
+            <p class="animate-on-scroll">На захисті закону та правопорядку</p>
+            <a href="#about" class="btn animate-on-scroll pulse">Дізнатися більше</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Про ДКВС</h2>
+            <div class="card animate-on-scroll">
+                <p>Державна кримінально-виконавча служба України забезпечує виконання покарань, призначених судами, і сприяє реабілітації осіб, що відбувають покарання, забезпечуючи їх соціальну адаптацію. Ми боремося з правопорушеннями, відновлюємо справедливість та підтримуємо правопорядок.</p>
+                <p>Обираючи службу в ДКВС, ви стаєте частиною команди, яка виконує важливу місію для забезпечення безпеки та захисту законності. Ваша відданість та відповідальність допоможуть у боротьбі зі злочинністю та відновленні порядку.</p>
+                <p>Приєднуйся до лав ДКВСУ — працюй на благо правопорядку та справедливості!</p>
+            </div>
+            <div class="icon-box animate-on-scroll">
+                <i class="fas fa-shield-alt"></i>
+                <p>Захист суспільства та забезпечення правопорядку</p>
+            </div>
+            <div class="icon-box animate-on-scroll">
+                <i class="fas fa-balance-scale"></i>
+                <p>Справедливе виконання судових рішень</p>
+            </div>
+            <div class="icon-box animate-on-scroll">
+                <i class="fas fa-users"></i>
+                <p>Реабілітація та соціальна адаптація засуджених</p>
+            </div>
+            <div class="action-buttons animate-on-scroll">
+                <a href="https://forum.ukraine-gta.com.ua/threads/%D0%94%D0%9A%D0%92%D0%A1-%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0-%D0%B7%D0%B0%D1%8F%D0%B2%D0%B0-%D0%BD%D0%B0-%D0%B2%D1%81%D1%82%D1%83%D0%BF-%D0%B4%D0%BE-%D0%94%D0%9A%D0%92%D0%A1.282198/" class="action-btn btn-apply">Залишити заявку на вступ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Наша статистика</h2>
+            <div class="statistics">
+                <div class="stat-item animate-on-scroll">
+                    <i class="fas fa-user-tie fa-3x" style="color: var(--primary-color);"></i>
+                    <h3 id="employeeCount" data-target="30">0</h3>
+                    <p>Активних працівників</p>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <i class="fas fa-building fa-3x" style="color: var(--primary-color);"></i>
+                    <h3 id="departmentCount" data-target="4">0</h3>
+                    <p>Відділи ДКВС</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Керівництво ДКВС</h2>
+            <div class="leadership-grid">
+                <div class="card animate-on-scroll">
+                    <img src="https://ukraine-gta.com.ua/images/game/skins/300x280/6758.webp" alt="#1" style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Дарина <br>Бабусь</h3>
+                    <p>Генерал ДКВС</p>
+                    <div class="icon-box">
+                        <i class="fas fa-star"></i>
+                        <p>Досвід роботи: 5+ років</p>
+                    </div>
+                </div>
+                <div class="card animate-on-scroll">
+                    <img src="https://ukraine-gta.com.ua/images/game/skins/300x280/269.webp" alt="#2" style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Андрій <br>Шевцов</h3>
+                    <p>Полковник ДКВС</p>
+                    <div class="icon-box">
+                        <i class="fas fa-medal"></i>
+                        <p>Куратор: none</p>
+                    </div>
+                </div>
+                <div class="card animate-on-scroll">
+                    <img src="https://ukraine-gta.com.ua/images/game/skins/300x280/269.webp" alt="#3" style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Вакант. <br></h3>
+                    <p>Полковник ДКВС</p>
+                    <div class="icon-box">
+                        <i class="fas fa-certificate"></i>
+                        <p>Куратор: none</p>
+                    </div>
+                </div>
+                <div class="card animate-on-scroll">
+                    <img src="https://ukraine-gta.com.ua/images/game/skins/300x280/229.webp" alt="#4" style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Вакант. <br> <br></h3>
+                    <p>Полковник ДКВС</p>
+                    <div class="icon-box">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>Куратор: none</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="departments" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Відділи ДКВС</h2>
+            <div class="departments-grid">
+                <div class="card animate-on-scroll">
+                    <i class="fas fa-graduation-cap fa-3x" style="color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>ЦІП — Центральний Інститут Підготовки </h3>
+                    <p>Базовий навчальний підрозділ.</p>
+                    <div class="icon-box">
+                        <i class="fas fa-tasks"></i>
+                        <p>Ключові завдання: професійна підготовка новобранців, проведення лекцій</p>
+                    </div>
+                    <h4>Керівник відділу:</h4>
+                    <p>Олександр Нестеро.</p>
+                </div>
+                <div class="card animate-on-scroll">
+                    <i class="fas fa-truck fa-3x" style="color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>ЦОК — Центр Охорони та Контролю</h3>
+                    <p>Організація та контроль осіб, позбавлених волі.</p>
+                    <div class="icon-box">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Спеціалізація:  нагляд, забезпечення порядку серед ув'язнених осіб</p>
+                    </div>
+                    <h4>Керівник відділу:</h4>
+                    <p>Нікіта Пушастікович.</p>
+                </div>
+                <div class="card animate-on-scroll">
+                    <i class="fas fa-search fa-3x" style="color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>ВТТ — Відділ Тюремного Транспортування </h3>
+                    <p>Стратегічний підрозділ, який забезпечує безпечне та контрольоване переміщення осіб, що перебувають під вартою, між установами, судами, слідчими органами тощо.</p>
+                    <div class="icon-box">
+                        <i class="fas fa-fingerprint"></i>
+                        <p>Фокус: безпека при транспортуванні, координація з іншими органами</p>
+                    </div>
+                    <h4>Керівник відділу:</h4>
+                    <p>Вакантно.</p>
+                </div>
+                <div class="card animate-on-scroll">
+                    <i class="fas fa-search fa-3x" style="color: var(--primary-color); margin-bottom: 15px;"></i>
+                    <h3>«СІЧ» — Спеціальний Антикризовий Відділ </h3>
+                    <p>Елітний спецпідрозділ ДКВС, що бере участь у найнебезпечніших операціях, спрямованих на нейтралізацію загроз, забезпечення режиму надзвичайного стану та захист персоналу.</p>
+                    <div class="icon-box">
+                        <i class="fas fa-fingerprint"></i>
+                        <p>Фокус: виявлення загроз, моніторинг правопорушень, реагування на надзвичайні ситуації</p>
+                    </div>
+                    <h4>Керівник відділу:</h4>
+                    <p>Максим Бакарді.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="requirements" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Вимоги для вступу в ДКВСУ</h2>
+            <div class="card animate-on-scroll">
+                <ul>
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Вік: 18+</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Проживання в області: 4+ роки</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Документація: паспорт, трудова книга, мед. книга</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Фізична підготовка: відповідність нормативам</li>
+                    <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Психологічна стійкість: проходження тестування</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="ranks" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Звання у фракції ДКВСУ</h2>
+            <div class="card animate-on-scroll">
+                <ul>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 1: Сержант</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 2: Старший сержант</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 3: Старшина</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 4: Прапорщик</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 5: Старший прапорщик</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 6: Лейтенант</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 7: Старший лейтенант</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 8: Капітан</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 9: Майор</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 10: Підполковник</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 11: Полковник</li>
+                    <li><i class="fas fa-chevron-right" style="color: var(--primary-color);"></i> Ранг 12: Генерал</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.imgur.com/G2SoaPY.png" alt="ДКВС фото 1">
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.imgur.com/CAtaHJy.png" alt="ДКВС фото 4">
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.imgur.com/4lhfLhD.png" alt="ДКВС фото 5">
+                    </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.imgur.com/aVsvwlB.jpeg" alt="ДКВС фото 8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Графік роботи</h2>
+            <div class="card animate-on-scroll">
+                <p>Наш графік роботи розроблений для забезпечення ефективного функціонування служби 24/7.</p>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>День тижня</th>
+                            <th>Години роботи</th>
+                            <th>Обідня перерва</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Понеділок</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Вівторок</td>
+                            <td>09:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Середа</td>
+                            <td>09:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Четвер</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>П'ятниця</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Субота</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Неділя</td>
+                            <td>10:00 - 21:00</td>
+                            <td>13:00 - 14:00 та 17:30 - 18:00</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+                <p style="margin-top: 20px;"><i class="fas fa-info-circle" style="color: var(--primary-color);"></i> Графік може змінюватися залежно від оперативної ситуації та потреб служби.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Часті запитання</h2>
+            <button class="accordion">Які переваги роботи в ДКВС?</button>
+            <div class="panel">
+                <p><i class="fas fa-check" style="color: var(--primary-color);"></i> Стабільна заробітна плата</p>
+                <p><i class="fas fa-check" style="color: var(--primary-color);"></i> Можливість кар'єрного росту</p>
+                <p><i class="fas fa-check" style="color: var(--primary-color);"></i> Соціальний пакет та пільги</p>
+                <p><i class="fas fa-check" style="color: var(--primary-color);"></i> Навчання та підвищення кваліфікації</p>
+                <p><i class="fas fa-check" style="color: var(--primary-color);"></i> Робота в команді професіоналів</p>
+            </div>
+            <button class="accordion">Як подати заявку на роботу в ДКВС?</button>
+            <div class="panel">
+                <p><i class="fas fa-file-alt" style="color: var(--primary-color);"></i> Заповніть анкету на офіційному сайті</p>
+                <p><i class="fas fa-id-card" style="color: var(--primary-color);"></i> Підготуйте необхідні документи</p>
+                <p><i class="fas fa-user-tie" style="color: var(--primary-color);"></i> Пройдіть співбесіду</p>
+                <p><i class="fas fa-heartbeat" style="color: var(--primary-color);"></i> Пройдіть медичний огляд</p>
+                <p><i class="fas fa-graduation-cap" style="color: var(--primary-color);"></i> Пройдіть базову підготовку</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ДКВС м.Дніпро. Всі права захищені.</p>
+            <p>Слава Україні! Героям слава!</p>
+        </div>
+    </footer>
+
+    <div id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBzefxFDTHQqXFHg9t08JTiL5EaH8si1oY",
+            authDomain: "dkvs-1ec88.firebaseapp.com",
+            databaseURL: "https://dkvs-1ec88-default-rtdb.firebaseio.com/",
+            projectId: "dkvs-1ec88",
+            storageBucket: "dkvs-1ec88.appspot.com",
+            messagingSenderId: "167430647129",
+            appId: "1:167430647129:web:ab209fec7735f20b597048",
+            measurementId: "G-H6LKMLYD10"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        const counterRef = ref(db, 'counter');
+
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        function handleScroll() {
+            const elements = document.querySelectorAll('.animate-on-scroll');
+            elements.forEach((el) => {
+                if (isInViewport(el) && !el.classList.contains('visible')) {
+                    el.classList.add('visible');
+                    if (el.classList.contains('stat-item')) {
+                        const countElement = el.querySelector('h3');
+                        const endValue = parseInt(countElement.getAttribute('data-target'));
+                        animateValue(countElement, 0, endValue, 2000);
+                    }
+                }
+            });
+
+            const scrollToTop = document.getElementById('scrollToTop');
+            if (window.pageYOffset > 300) {
+                scrollToTop.classList.add('visible');
+            } else {
+                scrollToTop.classList.remove('visible');
+            }
+
+            const header = document.getElementById('header');
+            if (window.pageYOffset > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            // Highlight active section in navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            const sections = document.querySelectorAll('section');
+
+            let currentSection = '';
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 60) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach((link) => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', handleScroll);
+
+        // Accordion functionality
+        const acc = document.getElementsByClassName("accordion");
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                const panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll to top functionality
+        document.getElementById('scrollToTop').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+
+        // Close mobile menu when a link is clicked
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('show');
+            });
+        });
+
+        onValue(counterRef, (snapshot) => {
+            const convoyCount = snapshot.val() || 0;
+            document.getElementById('convoyCount').setAttribute('data-target', convoyCount);
+            if (isInViewport(document.getElementById('convoyCount'))) {
+                animateValue(document.getElementById('convoyCount'), 0, convoyCount, 2000);
+            }
+        });
+    </script>
+</body>
+</html>
